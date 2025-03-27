@@ -91,13 +91,13 @@ main {
 
 .car-item {
     text-align: center;
-    width: 20%; /* Make each image smaller */
-    max-width: 180px; /* Set a max width to prevent large images */
-    padding: 10px;
+    width: 15%; /* Reduce the width further */
+    max-width: 150px; /* Set a smaller max width */
+    padding: 5px;
 }
 
 .car-item img {
-    width: 100%; /* Fit image inside the box */
+    width: 100%; /* Keep image within container */
     height: auto;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
