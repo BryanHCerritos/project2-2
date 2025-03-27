@@ -136,6 +136,20 @@ main {
     border-radius: 8px;
 }
 
+/* Centering the services image */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* Contact Form */
 .contact-form {
     text-align: center;
